@@ -13,3 +13,31 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/******
+Top Bar 
+*******/
+
+header {
+  position: relative;
+}
+.top-bar {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+.top-bar .column {
+  display: inline-block;
+  padding: 1em;
+  float: left
+}
+.top-bar .column ul li {
+  float: left;
+}
+.top-bar .column ul li a {
+  display: block;
+  padding: 0 .5em;
+  text-decoration: none;
+  color: white;
+}
+
